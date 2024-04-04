@@ -46,7 +46,7 @@ class Snake:
 class Fruit:
     def __init__(self):
         self.new()
-        self.img = pygame.image.load("img/apple.png")
+        self.img = pygame.image.load("./img/apple.png")
 
     def new(self):
         self.x = randrange(0, CELL_NUBMER)
